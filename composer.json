@@ -1,0 +1,16 @@
+{
+    "name": "cleison/design-patterns",
+    "description": "Padrões de Projeto com PHP",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cleison Mendes",
+            "email": "cleison606@gmail.com"
+        }
+    ],
+    "require": {}
+}
