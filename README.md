@@ -1,4 +1,4 @@
-# DesignPatterns - padrões de Projeto PHP
+# DesignPatterns - Padrões de Projeto PHP
 :pushpin:Padrões de Projeto em PHP
 
 ## :books: Estudo de Padrões de Projeto em PHP
