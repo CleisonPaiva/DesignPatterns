@@ -14,6 +14,8 @@ use Core\Creational\Builder\SmartPhone\ApplePhone;
 use Core\Creational\Builder\SmartPhone\SmartPhone;
 use Core\Creational\Builder\SmartPhone\SmartPhoneCreator;
 use Core\Creational\Example;
+use Core\Creational\Singleton\Conceptual\Singleton;
+use Core\Creational\Singleton\Practical\DbConnection;
 
 require_once '../vendor/autoload.php';
 
@@ -116,7 +118,7 @@ $request = ( new BuilderRequest )
     ] )
     -> build();
  */
-
+/**
 //Chamada pratica sem Builder
  $cleisonFounder = new User(
      firstName: 'Cleison',
@@ -162,3 +164,26 @@ $request = ( new BuilderRequest )
                  number: 981701406,
              )
              ->build();
+ */
+
+/**
+ * Singleton Conceitual
+ */
+// $instanceA = Singleton::getInstance();
+// $instanceB = Singleton::getInstance();
+// var_dump($instanceA === $instanceB);
+
+// $instance = DbConnection::getInstance();
+// DbConnection::getInstance();
+// DbConnection::getInstance();
+// DbConnection::getInstance();
+// DbConnection::getInstance();
+// DbConnection::getInstance();
+
+//DbConnection::getConnection();
+//DbConnection::getConnection();
+//DbConnection::getConnection();
+//DbConnection::getConnection();
+//DbConnection::getConnection();
+//DbConnection::getConnection();
+
